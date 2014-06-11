@@ -1,0 +1,10 @@
+# Site settings
+title: Andrey Morskov Ruby On Rails developer
+email: accessd0@gmail.com
+description: "Website about me"
+baseurl: ""
+url: "http://accessd.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

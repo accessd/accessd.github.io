@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      {{ page.title }}
+    </title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,400,700,300' rel='stylesheet' type='text/css'>
+    <link href="/assets/css/app.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+  </head>
+
+  <body>
+    <header>
+      <div class="pull-left logo">
+        <div class="name">
+          <a class="fname" href="/">Andrey Morskov</a><br />
+          <small>
+            <em>
+              <a href="/">Ruby On Rails developer</a>
+            </em>
+          </small>
+        </div>
+      </div>
+      <nav>
+        <!-- <a href="/hire" class="{% if page.category == 'hire' %} selected{% endif %}">Hire Me</a> -->
+        <a href="/" class="{% if page.category == 'about' %} selected {% endif %}">About</a>
+      </nav>
+    </header>
+
+      <div id="container">
+        <div id="content" class="">
+          {{ content }}
+        </div>
+      </div>
+
+    <footer>
+      Website designed by <a href="http://twitter.com/kevintunc">@kevintunc</a>,
+      powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>, hosted on
+      <a href="https://github.com/accessd/accessd.github.com">Github</a>
+      and put together by <a href="http://twitter.com/accessd_d">@accessd_d</a>
+    </footer>
+
+  </body>
+</html>
