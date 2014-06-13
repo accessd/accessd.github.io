@@ -127,10 +127,10 @@ p{
 }
 
 h1{
-  font-size: 1.85em;
-  text-align: center;
-  margin: 80px 0px 20px 0px;
-  line-height : 1.5em;
+  margin: 60px 0px 20px 0px;
+font-size: 1.7em;
+line-height: 1.7em;
+font-weight: 700;
 }
 
 h1 em{
@@ -341,38 +341,6 @@ blockquote p{
   color: #e92464;
 }
 
-/* PHOTOS */
-#photo-content{
-  width: 1024px;
-  margin: auto;
-}
-#photo-menu{
-  text-align: center;
-  padding: 40px 0px;
-}
-#photo-menu a{
-  font-family: 'Open Sans', sans-serif;
-  display: inline-block;
-  margin: 0px 5px;
-  color: #545454;
-}
-#photo-menu a:hover{
-  text-decoration: none;
-  color: #157ac6;
-}
-
-#photo-menu .selected{
-  font-weight: bold;
-  color: #157ac6;
-}
-
-#photo-content img{
-  display:block;
-  margin: 0px auto 40px auto;
-  border: 2px solid #333;
-}
-
-
 
 /* HIRE */
 
@@ -449,10 +417,82 @@ header .logo a, header .logo a:hover {
 }
 
 header .logo {
-    /* clear: left; */
-    /* text-align: center; */
-    padding-top: 1em;
-    /* float: none; */
-  } 
+  padding-top: 1em;
+} 
 
+.fancy, section, article {
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  line-height: 170%;
+}
+
+article {
+  font-size: 18px;
+}
+
+.portfolio-nav {
+  text-align: center;
+  list-style-type: none;
+  margin: 3em 0 2em 0;
+}
+
+.portfolio-nav li {
+  display: inline-block;
+  border: 1px solid #255b96;
+  border-right-width: 0;
+}
+
+.portfolio-nav .active {
+  background-color: #3073b3;
+}
+
+.portfolio-nav .active a {
+  color: white;
+}
+
+.portfolio-nav li a {
+  width: 5em;
+  padding: 0.7em 0.4em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.portfolio-nav li:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.portfolio-nav li:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-right-width: 1px;
+}
+
+.pull-right { float: right; }
 .pull-left { float: left; }
+.clear { clear: both; }
+.center { text-align: center !important; }
+.right { text-align: right; }
+.spacer {
+  border-top: 1px solid #E6E6E6;
+  margin: 3em auto;
+}
+.without-border {
+  border: none;
+}
+
+.inner, pre code, .post > * {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 100%;
+  display: block;
+}
+
+img.inline.pull-right {
+  margin-left: 1em;
+}
+
+img {
+  max-width: 100%;
+}

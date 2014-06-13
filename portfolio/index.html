@@ -1,0 +1,27 @@
+---
+layout: portfolio
+title: Andrey Morskov - Portfolio
+description: Andrey Morskov Portfolio of awesome web applications built with Love, Agile, Rails, PHP
+category: portfolio
+---
+
+<p class="fancy">
+  Here are some of the products I worked on.
+</p>
+<br/>
+{% for product in site.data.products %}
+  <section>
+    <a href="{{ product.url }}">
+      <img class="inline pull-right" src="/assets/portfolio/{{ product.image }}"
+           alt="{{ product.name }} Screenshot" width="280">
+    </a>
+    <h2><a href="{{ product.url }}">{{ product.name }}</a></h2>
+    <h3>{{ product.oneliner }}</h3>
+    <p><strong>My role:</strong> {{ product.role }}</p>
+    <p>{{ product.description}}</p>
+    <p>
+      <strong>Technologies:</strong> {{ product.technologies | join: ", " }}
+    </p>
+  </section>
+  <div class="spacer"></div>
+{% endfor %}

@@ -1,0 +1,31 @@
+- name: UpToPromo
+  image: uptopromo.png
+  url: http://uptopromo.com/en
+  oneliner: A full-featured links exchange service
+  role: Backend developer
+  description: >
+    Development from scratch. Work on billing, fin statistics universal analyst entities in the form of graphs, 
+    system notifications, queue optimization, application settings interface, redesign and etc.
+  technologies:
+    - Rails 4
+    - PostgreSQL
+    - Knockout.js
+    - Bootstrap 3
+
+- name: DrinkAdvisor
+  image: drinkadvisor.png
+  url: http://drinkadvisor.com
+  oneliner: Bars & Drinks guide
+  role: Full-stack / Lead developer
+  description: >
+    Social network for nightlife lovers. The website was designed and api for mobile applications, 
+    functional website and applications was approximately the same in the end have only mobile application. 
+    Integration with social networks Twitter and Facebook, push messages for the iPhone and Android, 
+    queue implementation through gearman, geo-positioning via HTML5 Geolocation Api and Postgis
+  technologies:
+    - PHP
+    - Yii framework
+    - Gearman
+    - PostgreSQL
+    - Postgis
+    - Jquery
