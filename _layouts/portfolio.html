@@ -9,13 +9,13 @@ layout: default
   <p class="fancy">
   </p>
 
-  <!-- <ul class="portfolio&#45;nav"> -->
-  <!--   <li {% if page.url == '/portfolio/index.html' %}class="active"{% endif %}> -->
-  <!--     <a href="/portfolio/">Products</a> -->
-  <!--   </li><li {% if page.url == '/portfolio/code.html' %}class="active"{% endif %}> -->
-  <!--     <a href="/portfolio/code.html">Code</a> -->
-  <!--   </li> -->
-  <!-- </ul> -->
+  <ul class="portfolio-nav">
+    <li {% if page.url == '/portfolio/' %}class="active"{% endif %}>
+      <a href="/portfolio">Products</a>
+    </li><li {% if page.url == '/portfolio/code/' %}class="active"{% endif %}>
+      <a href="/portfolio/code">Code</a>
+    </li>
+  </ul>
 
   {{ content }}
 
