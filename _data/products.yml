@@ -29,3 +29,19 @@
     - PostgreSQL
     - Postgis
     - Jquery
+
+- name: TourSovet
+  image: toursovet.png
+  url: http://toursovet.ru
+  oneliner: Travel company site
+  role: Full-stack developer
+  description: >
+    Site travel company. Import tours, online sales. Redesign. Api for mobile application. Online chat on Metal; rake tasks for logic, 
+    parsing external sources.
+  technologies:
+    - Rails 2.3
+    - MySQL
+    - JQuery
+    - SOAP
+
+
