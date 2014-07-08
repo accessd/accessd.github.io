@@ -2,9 +2,9 @@
   image: uptopromo.png
   url: http://uptopromo.com/en
   oneliner: A full-featured links exchange service
-  role: Backend developer
+  role: Full-stack developer
   description: >
-    Development from scratch. Work on billing, fin statistics universal analyst entities in the form of graphs, 
+    Development from scratch. Work on billing, fin statistics universal analyst entities in the form of graphs,
     system notifications, queue optimization, application settings interface, redesign and etc.
   technologies:
     - Rails 4
@@ -18,16 +18,17 @@
   oneliner: Bars & Drinks guide
   role: Full-stack / Lead developer
   description: >
-    Social network for nightlife lovers. The website was designed and api for mobile applications, 
-    functional website and applications was approximately the same in the end have only mobile application. 
-    Integration with social networks Twitter and Facebook, push messages for the iPhone and Android, 
-    queue implementation through gearman, geo-positioning via HTML5 Geolocation Api and Postgis
+    Social network for nightlife lovers. The website was designed and api for mobile applications,
+    functional website and applications was approximately the same in the end have only mobile application.
+    Integration with social networks Twitter and Facebook, push messages for the iPhone and Android,
+    queue implementation through <a href="http://gearman.org/" target="_blank">Gearman</a>,
+    geo-positioning via HTML5 Geolocation Api and <a href="http://postgis.net/" target="_blank">Postgis</a>
   technologies:
     - PHP
     - Yii framework
-    - Gearman
+    - <a href="http://gearman.org/" target="_blank">Gearman</a>
     - PostgreSQL
-    - Postgis
+    - <a href="http://postgis.net/" target="_blank">Postgis</a>
     - Jquery
 
 - name: TourSovet
@@ -36,7 +37,8 @@
   oneliner: Travel company site
   role: Full-stack developer
   description: >
-    Site travel company. Import tours, online sales. Redesign. Api for mobile application. Online chat on Metal; rake tasks for logic, 
+    Site travel company. Import tours, online sales. Redesign. Api for mobile application.
+    Online chat on Metal; rake tasks for logic,
     parsing external sources.
   technologies:
     - Rails 2.3
@@ -44,4 +46,57 @@
     - JQuery
     - SOAP
 
+- name: Tarification
+  image: tarification.png
+  url: #
+  oneliner: Intended for economists working in health facilities budget
+  role: Full-stack developer
+  description: >
+    Payroll accounting and various reports in excel. Connect to remote MSSQL databases.
+  technologies:
+    - Rails 3
+    - Ruby 1.9
+    - MSSQL
+    - Memcached
+    - <a href="http://www.sencha.com/products/extjs/" target="_blank">ExtJS 3</a>
 
+- name: Estimates
+  image: estimates.png
+  url: #
+  oneliner: ERP system for compiling estimates for sanitary-epidemiological services
+  role: Full-stack developer
+  description: >
+    Established interaction between managers, accountants, lawyers.
+    Price list with <a href="http://www.jstree.com/" target="_blank">jsTree</a>.
+    More reports in PDF and DOCX formats.
+  technologies:
+    - Rails 3
+    - Ruby 1.9
+    - MySQL
+    - <a href="https://github.com/prawnpdf/prawn" target="_blank">Prawn gem</a>
+    - JQuery
+    - Bootstrap
+
+- name: My salon
+  image: closed.jpg
+  url: https://vk.com/app1922478
+  oneliner: Backend for online flash game in social network <a href="http://vk.com/" target="_blank">VKontakte</a>
+  role: Backend developer
+  description: >
+    The application has completed its way, nevertheless it was a useful experience. Api with xml responses and much app logic. Lightweight Zend Framework:)
+  technologies:
+    - PHP
+    - <a href="http://framework.zend.com/" target="_blank">Zend Framework</a>
+    - Mysql stored procedures
+    - Memcached
+
+- name: Redmine plugins
+  image: redmine.png
+  url: http://www.redmine.org/
+  oneliner: Various inter-corporate plugins for <a href="http://www.redmine.org/" target="_blank">Redmine</a>
+  role: Backend developer
+  description: >
+    Writing plugins. Workload optimization redmine (load testing application servers mongrel, passenger, thin, unicorn. Eventually settled on unicorn + ree 1.8.7)
+  technologies:
+    - Rails 2.3
+    - Ruby 1.8
