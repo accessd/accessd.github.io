@@ -4,12 +4,17 @@
   oneliner: A full-featured links exchange service
   role: Full-stack developer
   description: >
-    Development from scratch. Work on billing, fin statistics universal analyst entities in the form of graphs,
-    system notifications, queue optimization, application settings interface, redesign and etc.
+    Development from scratch. Work on billing, fin statistics, content analysis universal analyst entities in the form of graphs(dashboard),
+    system notifications, queue optimization, <a href="https://github.com/glebm/rails_email_preview/pull/14" target="_blank">preview emails with ability to send test messages</a>,
+    <a href="https://github.com/accessd/rails-settings-ui" target="_blank">application settings interface</a>, 
+    editing content pages through <a href="http://jejacks0n.github.io/mercury/" target="_blank">Mercury editor</a>, redesign and etc.
   technologies:
-    - Rails 4
+    - Ruby on the edge
+    - Rails on the edge
     - PostgreSQL
-    - Knockout.js
+    - <a href="https://github.com/mperham/sidekiq" target="_blank">Sidekiq</a>
+    - Rspec, Capybara
+    - <a href="http://knockoutjs.com/" target="_blank">Knockout.js</a>
     - Bootstrap 3
 
 - name: DrinkAdvisor
@@ -43,6 +48,7 @@
   technologies:
     - Rails 2.3
     - MySQL
+    - <a href="https://github.com/collectiveidea/delayed_job" target="_blank">delayed_job</a>
     - JQuery
     - SOAP
 
