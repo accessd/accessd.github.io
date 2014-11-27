@@ -1,3 +1,9 @@
+- name: models_stats gem
+  github: accessd/models_stats
+  technology: Ruby
+  description: >
+    Graphics for your rails models. It uses MetricsGraphics.js.
+
 - name: rails-env-favicon gem
   github: accessd/rails-env-favicon
   technology: Ruby
