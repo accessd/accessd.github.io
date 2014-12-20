@@ -204,6 +204,12 @@ blockquote p{
 
 /* BLOG SHOW */
 
+.post {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
 .post img{
   border: 1px solid #e6e6e6;
   padding: 5px;
