@@ -2,6 +2,9 @@
 layout: default
 ---
 <script type="text/javascript" src="http://vk.com/js/api/share.js?90" charset="windows-1251"></script>
+<link href="/assets/css/social-likes_birman.css" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/assets/js/social-likes.min.js"></script>
 <h1>
   <span>
     {% if page.titlehtml %}
@@ -46,40 +49,12 @@ layout: default
       </p>
       {% endif %}
     </div>
-    <a href="https://twitter.com/accessd_d" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @accessd_d</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-    <a href="https://twitter.com/share" class="twitter-share-button" data-via="accessd_d" data-size="large">Tweet</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-<div class="fb-like" data-share="true" data-width="450" data-show-faces="true" style="margin-bottom: 20px;"></div>
-
-<script type="text/javascript">
-<!--
-document.write(VK.Share.button());
-
--->
-</script>
-
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '328844073989073',
-      xfbml      : true,
-      version    : 'v2.2'
-    });
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-
-  </div>
+<div class="social-likes">
+	<div class="facebook" title="Share link on Facebook">Facebook</div>
+	<div class="twitter" title="Share link on Twitter">Twitter</div>
+	<div class="plusone" title="Share link on Google+">Google+</div>
+</div>
 
   <div id="disqus_thread"></div>
     <script type="text/javascript" style="display: none;">
