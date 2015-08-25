@@ -1,3 +1,21 @@
+- name: Servers.com
+  image: serverscom.png
+  url: https://servers.com
+  oneliner: Servers.com is an automated and standardized hosting platform for small to medium scale business customers
+  role: Backend developer
+  description: >
+    Migrating from legacy code. Working on baremetal servers automatic provisioning, network automatic configuration.
+    API for js app. Many integrations with third-party services.
+    Refactoring, capistrano notifications to jabber, <a href="https://github.com/Undev/errbit" target="_blank">Errbit</a> integration.
+  technologies:
+    - Ruby
+    - Rack
+    - Sinatra
+    - Concurrency with Fibers
+    - API with <a href="https://github.com/ruby-grape/grape" target="_blank">Grape</a>
+    - MySQL
+    - Rspec
+
 - name: UpToPromo
   image: uptopromo.png
   url: http://uptopromo.com/en
