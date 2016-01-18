@@ -4,17 +4,46 @@
   oneliner: Servers.com is an automated and standardized hosting platform for small to medium scale business customers
   role: Backend developer
   description: >
-    Migrating from legacy code. Working on baremetal servers automatic provisioning, network automatic configuration.
+    Migrating from legacy code. Working on baremetal servers zero-touch automatic provisioning, network automatic configuration.
     API for js app. Many integrations with third-party services.
     Refactoring, capistrano notifications to jabber, <a href="https://github.com/Undev/errbit" target="_blank">Errbit</a> integration.
+    Migrating deployment infrastructure from capistrano to Ansible.
   technologies:
     - Ruby
     - Rack
     - Sinatra
+    - EventMachine
     - Concurrency with Fibers
     - API with <a href="https://github.com/ruby-grape/grape" target="_blank">Grape</a>
     - MySQL
     - Rspec
+
+- name: Gigtest.ru
+  image: gigtest.jpg
+  url: https://gigtest.ru
+  oneliner: Gigtest.ru is a service of remote hygienic training and testing. Working only in Russia.
+  role: Full-stack developer
+  description: >
+    Development from scratch. Developed key features such: video conferences with WebRTC, education and test processes,
+      analytics. Administrate server.
+  technologies:
+    - PHP
+    - NodeJS
+    - Yii Framework 2
+    - MySQL
+    - WebRTC
+
+- name: Photographer
+  image: morskova.jpg
+  url: http://morskova.com
+  oneliner: Website with portfolio for my wife
+  role: Full-stack developer
+  description: >
+    Simple website working on new cool technologies!
+  technologies:
+    - <a href="http://elixir-lang.org/" target="_blank">Elixir</a>
+    - <a href="http://www.phoenixframework.org/" target="_blank">Phoenix</a>
+    - PostgreSQL
 
 - name: UpToPromo
   image: uptopromo.png
@@ -24,7 +53,7 @@
   description: >
     Development from scratch. Work on billing, fin statistics, content analysis universal analyst entities in the form of graphs(dashboard),
     system notifications, queue optimization, <a href="https://github.com/glebm/rails_email_preview/pull/14" target="_blank">preview emails with ability to send test messages</a>,
-    <a href="https://github.com/accessd/rails-settings-ui" target="_blank">application settings interface</a>, 
+    <a href="https://github.com/accessd/rails-settings-ui" target="_blank">application settings interface</a>,
     editing content pages through <a href="http://jejacks0n.github.io/mercury/" target="_blank">Mercury editor</a>, redesign and etc.
   technologies:
     - Ruby on the edge
