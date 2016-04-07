@@ -11,7 +11,7 @@ markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", "README.md", "Rakefile", "vendor"]
-highlighter: pygments
+highlighter: rouge
 
 author:
   name: Andrey Morskov
