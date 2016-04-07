@@ -4,7 +4,10 @@
   oneliner: Servers.com is an automated and standardized hosting platform for small to medium scale business customers
   role: Backend developer
   description: >
-    Migrating from legacy code. Working on baremetal servers zero-touch automatic provisioning, network automatic configuration.
+    Migration from legacy code. I was working on baremetal servers zero-touch automatic provisioning, key features here:
+    network automatic provisioning on Brocade VDX/ICX switches, particularly automatization of VXLAN provisioning;
+    interaction with DELL iDrac SOAP based protocol <a href="https://www.dmtf.org/standards/wsman" target="_blank">WS-Man</a>.
+    Had provisioned 500 servers in one working day.
     API for js app. Many integrations with third-party services.
     Refactoring, capistrano notifications to jabber, <a href="https://github.com/Undev/errbit" target="_blank">Errbit</a> integration.
     Migrating deployment infrastructure from capistrano to Ansible.
