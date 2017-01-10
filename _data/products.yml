@@ -1,16 +1,31 @@
 - name: Servers.com
   image: serverscom.png
   url: https://servers.com
-  oneliner: Servers.com is an automated and standardized hosting platform for small to medium scale business customers
+  oneliner: Servers.com is a global IaaS hosting platform that provides an automated hybrid cloud ready infrastructure
   role: Backend developer
   description: >
-    Migration from legacy code. I was working on baremetal servers zero-touch automatic provisioning, key features here:
-    network automatic provisioning on Brocade VDX/ICX switches, particularly automatization of VXLAN provisioning;
-    interaction with DELL iDrac SOAP based protocol <a href="https://www.dmtf.org/standards/wsman" target="_blank">WS-Man</a>.
-    Had provisioned 500 servers in one working day.
-    API for js app. Many integrations with third-party services.
+    Migration from legacy code. Mostly I was working on baremetal servers zero-touch automatic provisioning.
+    <p></p>
+    My key achievements:
+    <br/>
+    Network automatic provisioning on Brocade VDX/ICX switches, particularly automatization of VXLAN provisioning
+    <br/>
+    Firewall as a service feature with <a href="http://www.brocade.com/en/products-services/software-networking/network-functions-virtualization/vrouter.html">Brocade vRouter</a>
+    <br/>
+    Microservice for interaction with DELL iDrac SOAP based protocol <a href="https://www.dmtf.org/standards/wsman" target="_blank">WS-Man</a>
+    <br/>
+    Tool for generation config for switches
+    <br/>
+    I've made deploy bot for Slack using <a href="https://github.com/slack-ruby/slack-ruby-bot" target="_blank">https://github.com/slack-ruby/slack-ruby-bot</a>
+    <br/>
+    Had provisioned 500 servers in one working day
+    <p></p>
+    Other things:
+    <br/>
+    Work on API for js app. Many integrations with third-party services.
     Refactoring, capistrano notifications to jabber, <a href="https://github.com/Undev/errbit" target="_blank">Errbit</a> integration.
     Migrating deployment infrastructure from capistrano to Ansible.
+
   technologies:
     - Ruby
     - Rack
@@ -24,10 +39,10 @@
 - name: Gigtest.ru
   image: gigtest.jpg
   url: https://gigtest.ru
-  oneliner: Gigtest.ru is a service of remote hygienic training and testing. Working only in Russia.
+  oneliner: My own project. Gigtest.ru is a service of remote hygienic training and testing. Works only in Russia.
   role: Full-stack developer
   description: >
-    Development from scratch. Developed key features such: video conferences with WebRTC, education and test processes,
+    Development from scratch. Developed key features such are: video conferences with WebRTC, education and test processes,
       analytics. Administrate server.
   technologies:
     - PHP
@@ -36,17 +51,19 @@
     - MySQL
     - WebRTC
 
-- name: Photographer
-  image: morskova.jpg
-  url: http://morskova.com
-  oneliner: Website with portfolio for my wife
+- name: Beacon Gate
+  image: beacon.jpg
+  url:
+  oneliner: My own project with BLE and IBeacon technologies
   role: Full-stack developer
   description: >
-    Simple website working on new cool technologies!
+    Apply device for opening doors by just a coming near to the door or gates. Bluetooth module and smartphone interact automaticly.
+    It was really interesting to programming bluetooth module and develop for iOS.
   technologies:
-    - <a href="http://elixir-lang.org/" target="_blank">Elixir</a>
-    - <a href="http://www.phoenixframework.org/" target="_blank">Phoenix</a>
-    - PostgreSQL
+    - <a href="https://www.silabs.com/products/wireless/bluetooth/bluetooth-smart-modules/Pages/ble112-bluetooth-smart-module.aspx" target="_blank">Bluegiga BLE112 Bluetooth Smart Module</a>
+    - Objective C
+    - Bluegiga BGScript
+    - Soldering-iron
 
 - name: UpToPromo
   image: uptopromo.png
@@ -66,6 +83,18 @@
     - Rspec, Capybara
     - <a href="http://knockoutjs.com/" target="_blank">Knockout.js</a>
     - Bootstrap 3
+
+- name: Photographer
+  image: morskova.jpg
+  url: http://morskova.com
+  oneliner: Website with portfolio for my wife
+  role: Full-stack developer
+  description: >
+    Simple website working on new cool technologies!
+  technologies:
+    - <a href="http://elixir-lang.org/" target="_blank">Elixir</a>
+    - <a href="http://www.phoenixframework.org/" target="_blank">Phoenix</a>
+    - PostgreSQL
 
 - name: DrinkAdvisor
   image: drinkadvisor.png
