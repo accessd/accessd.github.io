@@ -1,3 +1,22 @@
+- name: slack-deploy-bot
+  github: accessd/slack-deploy-bot
+  technology: Ruby
+  description: >
+    A Slack bot that helps you to deploy your apps
+
+- name: slack-ruby-bot
+  github: slack-ruby/slack-ruby-bot
+  technology: Ruby
+  description: >
+    A generic Slack bot framework written in Ruby
+
+- name: rails-settings-ui gem
+  github: accessd/rails-settings-ui
+  technology: Ruby
+  description: >
+    A Rails Engine to manage your application settings. Includes validation. Compatible with Rails 5.
+    It compatible with rails-settings-cached gem
+
 - name: models_stats gem
   github: accessd/models_stats
   technology: Ruby
@@ -9,13 +28,6 @@
   technology: Ruby
   description: >
     Gem to display the rails environment on the favicon
-
-- name: rails-settings-ui gem
-  github: accessd/rails-settings-ui
-  technology: Ruby
-  description: >
-    A Rails Engine to manage your application settings. Includes validation. Compatible with Rails 4. 
-    It compatible with rails-settings-cached gem
 
 - name: sublime-useful-ruby-snippets
   github: accessd/sublime-useful-ruby-snippets
