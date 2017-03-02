@@ -11,6 +11,8 @@ lang: en
 A Slack bot that helps you to deploy your apps.
 With this bot you're able to build your own ChatOps tool!
 
+For code please go to [slack-deploy-bot](https://github.com/accessd/slack-deploy-bot)
+
 ## What it can do?
 
 For help just type **help**:
