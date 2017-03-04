@@ -1,0 +1,31 @@
+- name: DemisGroup
+  link: http://demis.ru
+  years: 2009 - 2012
+  position: Web developer
+  location: Tambov, Russia
+  description: >
+    Developed SEO instruments and intracorporate systems
+
+- name: Evrone
+  link: http://evrone.com
+  years: 2012 - 2015
+  position: Ruby developer
+  location: Everywhere
+  description: >
+    Developed startups with Ruby and Ruby on Rails
+
+- name: Servers.com
+  link: https://servers.com
+  years: 2015 - 2016
+  position: Software Developer
+  location: Limassol, Cyprus
+  description: >
+    Developed global IaaS hosting platform
+
+- name: Applied Software
+  link: http://appsoftware.ru
+  years: 2009 - ...
+  position: CTO
+  location: Tambov, Russia
+  description: >
+    Development from scratch my own project <a href="https://gigtest.ru" target="_blank">Gigtest</a>

@@ -25,10 +25,31 @@ category: about
 
   <p>
     Currently I'm living in Tambov, Russia. Before that I had been living on Cyprus for 1.5 years where is I worked on
-    <a href="https://servers.com" class="drivy" target="_blank">Servers.com</a> - IaaS hosting platform. Before that I worked as Ruby Back-end developer at
-    <a href="http://www.evrone.com/" class="drivy" target="_blank">Evrone</a>, company which is developing startups.
-    And before that I worked in <a href="http://www.demis.ru/" class="drivy" target="_blank">Demis Group</a>, one of the biggest Russian SEO companies.
+    <a href="https://servers.com" class="drivy" target="_blank">Servers.com</a>
   </p>
+
+
+  My path (in brief):
+  <ul class="path">
+  {% for job in site.data.jobs %}
+    <section>
+      <li>
+      <strong>{{ job.years }}</strong>
+      <p>
+      <a href="{{ job.link }}" class="drivy" target="_blank">{{ job.name }}</a>&nbsp;&nbsp;
+      {{ job.position }}
+      <br/>
+      {{ job.description }}
+      <br/>
+      <span class="sidenote"></span>
+      </p>
+      </li>
+    </section>
+    <div class="jobs-spacer"></div>
+  {% endfor %}
+  </ul>
+
+  <br/>
   <p>
     Also at the moment I'm in graduate school, where I'am engaged in parallel algorithms of
     <a href="http://en.wikipedia.org/wiki/Singular_value_decomposition" target="_blank">SVD</a>.

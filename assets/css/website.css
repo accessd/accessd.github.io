@@ -491,6 +491,10 @@ article {
   border-top: 1px solid #E6E6E6;
   margin: 3em auto;
 }
+.jobs-spacer {
+  border-top: 1px solid #E6E6E6;
+  margin: 5px auto;
+}
 .without-border {
   border: none;
 }
@@ -551,4 +555,20 @@ img {
   @media screen and (min-width: 64em) {
     .page-header {
       padding: 5rem 6rem; } }
+}
+
+.company-name {
+  margin-bottom: 0;
+}
+
+.path > li {
+  margin-top: 10px;
+}
+
+.path {
+  margin-top: 10px;
+}
+
+.path > section > li > p {
+  margin-bottom: 0px;
 }
