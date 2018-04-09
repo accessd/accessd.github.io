@@ -15,6 +15,7 @@ body{
 
 #content{
   width: 760px;
+  /* max-width: 1200px; */
   margin: auto;
 }
 
@@ -499,8 +500,18 @@ article {
   border: none;
 }
 
-.inner, pre code, .post > * {
+.inner, pre code {
   max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 100%;
+  display: block;
+}
+
+pre code, .post > * {
+  min-width: 760px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;

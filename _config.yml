@@ -13,6 +13,12 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", "README.md", "Rakefile", "vendor"]
 highlighter: rouge
 
+# Markdown Processors
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
 author:
   name: Andrey Morskov
   email: accessd0@gmail.com
