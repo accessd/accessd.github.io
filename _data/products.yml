@@ -1,3 +1,36 @@
+- name: Hello Baby
+  image: hellobaby.png
+  url: https://babyalbum.com
+  oneliner: An ultimate ecosystem of mobile apps for parents and future parents
+  role: Backend developer
+  description: >
+    <p>
+    Developed a backend for mobile applications, admin panels. Has written integrations with external services such as Amplitude, Adjust, AppsFlyer, Branch.
+    </p>
+    <p></p>
+    My key achievements:
+    <br/>
+    I wrote a service that implements shared subscriptions for several apps
+    <br/>
+    Implemented A / B testing and sales analytics
+    <br/>
+    Made logging to Graylog
+    <br/>
+    Collecting metrics and alerts in Prometheus
+    <br/>
+    I made the infrastructure in Google Cloud using Ansible, used Docker and Kubernetes
+    <p></p>
+  technologies:
+    - Ruby
+    - Rails
+    - Docker
+    - Google Cloud
+    - Kubernetes
+    - Prometheus
+    - Graylog
+    - Ansible
+    - MySQL
+
 - name: Servers.com
   image: serverscom.png
   url: https://servers.com
