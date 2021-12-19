@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem "jekyll"
 
-gem "kramdown"
+gem "kramdown", ">= 2.3.1"
 gem "rake"
 
 # Requires Pygments
