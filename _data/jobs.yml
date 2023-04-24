@@ -10,7 +10,7 @@
   link: http://evrone.com
   years: 2012 - 2015
   position: Ruby developer
-  location: Everywhere
+  location: Remote
   description: >
     Developed startups with Ruby and Ruby on Rails
 
@@ -22,10 +22,10 @@
   description: >
     Developed global IaaS hosting platform
 
-- name: Applied Software
-  link: http://appsoftware.ru
-  years: 2009 - ...
-  position: CTO
-  location: Tambov, Russia
+- name: HelloBaby
+  link: https://babyalbum.com
+  years: 2017 - 2020
+  position: Backend Developer
+  location: Remote
   description: >
-    Development from scratch my own project <a href="https://gigtest.ru" target="_blank">Gigtest</a>
+    Developed ecosystem of mobile apps for parents and future parents

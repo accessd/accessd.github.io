@@ -69,21 +69,6 @@
     - MySQL
     - Rspec
 
-- name: Gigtest.ru
-  image: gigtest.jpg
-  url: https://gigtest.ru
-  oneliner: My own project. Gigtest.ru is a service of remote hygienic training and testing. Works only in Russia.
-  role: Full-stack developer
-  description: >
-    Development from scratch. Developed key features such are: video conferences with WebRTC, education and test processes,
-      analytics. Administrate server.
-  technologies:
-    - PHP
-    - NodeJS
-    - Yii Framework 2
-    - MySQL
-    - WebRTC
-
 - name: Beacon Gate
   image: beacon.jpg
   url:
