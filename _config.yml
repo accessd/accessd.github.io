@@ -3,7 +3,7 @@ title: Andrey Morskov Ruby developer
 email: accessd0@gmail.com
 description: "Website about me"
 baseurl: ""
-url: "http://morskov.com"
+url: "https://morskov.com"
 
 # Build settings
 markdown: kramdown

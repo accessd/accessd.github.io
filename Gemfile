@@ -7,3 +7,5 @@ gem "rake"
 
 # Requires Pygments
 # sudo easy_install Pygments
+
+gem "bigdecimal", "~> 3.2"
