@@ -8,6 +8,8 @@ tags: ["ai", "claude", "chaptgpt"]
 lang: en
 ---
 
+![taleshade](/assets/blog/taleshade.gif)
+
 Decided to try new AI tools to see how much they'd help take a project from idea to deployment. Hacked together a project in a couple days: [TaleShade](https://taleshade.com) - every day a new short story is created in genres like Horror, Mystery, Sci-Fi, Thriller etc, and at midnight the story disappears. Like a bedtime story for reading/listening.
 
 ## 1. The Idea.
