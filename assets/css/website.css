@@ -583,3 +583,208 @@ img {
 .path > section > li > p {
   margin-bottom: 0px;
 }
+
+/* MOBILE RESPONSIVE STYLES */
+@media screen and (max-width: 800px) {
+  /* Header adjustments */
+  header {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 100;
+  }
+  
+  header .logo {
+    padding-top: 1.5em;
+  }
+  
+  nav {
+    padding-top: 30px;
+    position: relative;
+    z-index: 101;
+  }
+  
+  nav a {
+    margin-left: 15px;
+    font-size: 0.75em;
+  }
+  
+  /* Container spacing to prevent overlap */
+  #container {
+    margin-top: 40px;
+  }
+  
+  /* Blog post titles need more spacing */
+  .post h1, .single-post {
+    margin-top: 60px;
+  }
+  
+  /* Content area */
+  #content {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Typography adjustments */
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    margin: 40px 0 15px 0;
+  }
+  
+  h2 {
+    font-size: 1.4em;
+    margin: 20px 0;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+  }
+  
+  /* About page mobile layout */
+  #about {
+    width: 100%;
+    float: none;
+  }
+  
+  #links {
+    float: none;
+    width: 100%;
+    margin-top: 60px;
+  }
+  
+  /* Increase spacing between navigation and content */
+  #about, #me {
+    margin-top: 80px;
+  }
+  
+  /* Blog index adjustments */
+  .single-post .date {
+    float: none;
+    width: 100%;
+    text-align: left;
+    padding: 0 0 10px 0;
+  }
+  
+  .single-post .excerpt {
+    float: none;
+    width: 100%;
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 15px;
+  }
+  
+  /* Post content */
+  .post {
+    font-size: 18px;
+    overflow-x: hidden;
+  }
+  
+  pre code, .post > * {
+    min-width: auto;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .inner, pre code {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  
+  /* Code blocks should handle overflow properly */
+  code {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+  
+  pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  /* Images */
+  .post img {
+    margin: 0 0 20px 0;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Newsletter form */
+  #mce-EMAIL {
+    width: 100%;
+    max-width: 250px;
+    padding: 12px 20px;
+  }
+  
+  #mc-embedded-subscribe {
+    padding: 12px 20px;
+  }
+  
+  /* Code blocks */
+  pre {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Reviews */
+  .review {
+    width: 100%;
+    float: none;
+    margin: 20px 0;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 30px 20px;
+    font-size: 0.75em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Even smaller screens */
+  nav {
+    float: none;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  header .logo {
+    float: none;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    display: inline-block;
+    padding: 5px 0;
+  }
+  
+  h1 {
+    font-size: 1.3em;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+  }
+  
+  body {
+    font-size: 15px;
+  }
+  
+  .post {
+    font-size: 16px;
+  }
+  
+  /* Stack navigation items on very small screens */
+  nav a:first-child {
+    margin-left: 0;
+  }
+}
