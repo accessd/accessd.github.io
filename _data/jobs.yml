@@ -1,31 +1,47 @@
-- name: DemisGroup
-  link: http://demis.ru
-  years: 2009 - 2012
-  position: Web developer
-  location: Tambov, Russia
+- name: Wallarm
+  link: https://wallarm.com
+  years: 12/2024 - current
+  position: Senior Backend Engineer
+  location: Remote
   description: >
-    Developed SEO instruments and intracorporate systems
+    Architected and delivered complete Security Edge platform handling enterprise-scale web security deployments. Led critical infrastructure migration from MySQL to PostgreSQL 17 with zero downtime.
+
+- name: Para.co
+  link: https://para.co
+  years: 11/2022 - 08/2024
+  position: Senior Backend Developer
+  location: Remote
+  description: >
+    Streamlined payment gateway integration, reducing integration time from 2 weeks to 2 days. Achieved 99% payment success rate through monitoring and load balancing.
+
+- name: HelloBaby | Donut Games | Moonly
+  link: https://babyalbum.com
+  years: 03/2017 - 08/2022
+  position: Backend Developer/DevOps/SRE
+  location: Remote
+  description: >
+    Developed scalable backend architecture for mobile applications handling 1K RPS. Led migration to open-source monitoring solutions, decreasing operational expenses by $2,000/month.
+
+- name: Servers.com
+  link: https://servers.com
+  years: 12/2014 - 08/2016
+  position: Software Engineer
+  location: Limassol, Cyprus
+  description: >
+    Engineered server provisioning solution reducing delivery times from 60 to 10 minutes
 
 - name: Evrone
-  link: http://evrone.com
+  link: https://evrone.com
   years: 2012 - 2015
   position: Ruby developer
   location: Remote
   description: >
     Developed startups with Ruby and Ruby on Rails
 
-- name: Servers.com
-  link: https://servers.com
-  years: 2015 - 2016
-  position: Software Developer
-  location: Limassol, Cyprus
+- name: DemisGroup
+  link: https://demis.ru
+  years: 2009 - 2012
+  position: Web developer
+  location: Tambov, Russia
   description: >
-    Developed global IaaS hosting platform
-
-- name: HelloBaby
-  link: https://babyalbum.com
-  years: 2017 - 2020
-  position: Backend Developer
-  location: Remote
-  description: >
-    Developed ecosystem of mobile apps for parents and future parents
+    Developed SEO instruments and intracorporate systems
